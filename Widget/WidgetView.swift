@@ -14,7 +14,7 @@ struct WidgetView: View {
                     .frame(height: 20, alignment: .center)
                 Text(quote.text)
                     .font(.system(size: 15, weight: .bold))
-                    .frame(width: 300, alignment: .center)
+                    .frame(width: 275, alignment: .center)
                 Text(quote.author)
                     .font(.system(size: 12, weight: .regular))
                 Image(image)
